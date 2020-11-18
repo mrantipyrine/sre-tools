@@ -1,0 +1,5 @@
+awscli==1.18.180
+pytest==6.1.2
+requests==2.25.0
+testinfra==6.0.0
+pydantic==1.7.2
