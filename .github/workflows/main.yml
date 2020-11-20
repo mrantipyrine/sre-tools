@@ -24,4 +24,5 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build Docker Container
+      working-directory: debug-utils
       run: ls -l && debug-utils/make build 
