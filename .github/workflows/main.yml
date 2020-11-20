@@ -25,4 +25,4 @@ jobs:
 
     - name: Build Docker Container
       working-directory: debug-utils
-      run: ls -l && debug-utils/make build 
+      run: make build 
