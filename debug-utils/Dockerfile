@@ -1,6 +1,5 @@
 FROM alpine:3.12.1
 
-
 # Install packages
 RUN apk add --no-cache \
     bash \
